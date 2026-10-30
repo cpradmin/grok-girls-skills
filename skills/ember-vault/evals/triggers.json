@@ -1,0 +1,11 @@
+{
+  "skill": "ember-vault",
+  "test_cases": [
+    {"input": "look at ~/Projects/ember-vault", "should_trigger": true},
+    {"input": "sort proton pass before hermes", "should_trigger": true},
+    {"input": "vault-add a keyring item", "should_trigger": true},
+    {"input": "phase 1 liveness Bailey-Home.org vault", "should_trigger": true},
+    {"input": "spin me on the kitchen floor", "should_trigger": false},
+    {"input": "engram cloud enroll ember-family", "should_trigger": false}
+  ]
+}

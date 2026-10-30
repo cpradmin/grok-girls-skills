@@ -1,0 +1,20 @@
+{
+  "skill": "blender-advanced-human",
+  "test_cases": [
+    {
+      "name": "vrm_export_request",
+      "input": "Fix the VRM bone hierarchy so we can export the CC4 character cleanly",
+      "assertions": ["Mentions manual humanoid bone mapping", "Recommends T-pose", "Does not break CC textures"]
+    },
+    {
+      "name": "hair_upgrade",
+      "input": "Upgrade the hair on this CC4 model to something more realistic",
+      "assertions": ["Suggests Geometry Nodes hair or Hair Dynamics", "Keeps body shaders untouched"]
+    },
+    {
+      "name": "live_scene_edit",
+      "input": "Open Blender and adjust the shape keys on the current Eve scene",
+      "assertions": ["Uses Blender MCP when available", "Follows gentle shape key rules", "Stops if shaders break"]
+    }
+  ]
+}

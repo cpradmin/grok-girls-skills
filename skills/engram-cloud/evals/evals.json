@@ -1,0 +1,39 @@
+{
+  "skill": "engram-cloud",
+  "test_cases": [
+    {
+      "name": "smoke_path_order",
+      "input": "Stand up Engram Cloud smoke on localhost and sync a project",
+      "assertions": [
+        "Uses docker compose then cloud config then enroll then sync --cloud --project",
+        "Does not recommend INSECURE_NO_AUTH on a public hostname",
+        "Treats local SQLite as source of truth"
+      ]
+    },
+    {
+      "name": "dashboard_empty",
+      "input": "Dashboard shows 0 observations but mem_search finds ember-family rows",
+      "assertions": [
+        "Does not delete or reset local SQLite",
+        "Runs cloud status, doctor, and sync --cloud --status",
+        "Explains cloud has not accepted pending journal"
+      ]
+    },
+    {
+      "name": "policy_forbidden",
+      "input": "engram sync --cloud --project ember-family returns policy_forbidden",
+      "assertions": [
+        "Points at ENGRAM_CLOUD_ALLOWED_PROJECTS and managed grants",
+        "Does not claim the client can print the server allowlist"
+      ]
+    },
+    {
+      "name": "gzip_x1f",
+      "input": "push fails with invalid character \\x1f looking for beginning of value",
+      "assertions": [
+        "Identifies gzip envelope vs JSON decode",
+        "Tells operator to preserve Content-Type and upgrade server if old"
+      ]
+    }
+  ]
+}

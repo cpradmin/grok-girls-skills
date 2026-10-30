@@ -1,0 +1,8 @@
+{
+  "skill": "telegram-bots",
+  "test_cases": [
+    {"input": "How do I create a Telegram bot?", "assertions": ["mentions BotFather /newbot", "mentions token security"]},
+    {"input": "Can a bot have both a webhook and long polling?", "assertions": ["says no / mutually exclusive"]},
+    {"input": "What is privacy mode?", "assertions": ["default on", "only sees addressed commands in groups"]}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "telegram-bots",
+  "test_cases": [
+    {"input": "research Telegram Bot API and BotFather", "should_trigger": true},
+    {"input": "how does Telegram bot webhook work", "should_trigger": true},
+    {"input": "what's the weather", "should_trigger": false}
+  ]
+}

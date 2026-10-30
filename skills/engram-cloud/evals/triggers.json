@@ -1,0 +1,12 @@
+{
+  "skill": "engram-cloud",
+  "test_cases": [
+    {"input": "stand up Engram Cloud in-house for ember-family", "should_trigger": true},
+    {"input": "engram sync --cloud is blocked_unenrolled", "should_trigger": true},
+    {"input": "pin ghcr.io/gentleman-programming/engram and enroll a project", "should_trigger": true},
+    {"input": "dashboard empty after cloud sync", "should_trigger": true},
+    {"input": "rotate the Technitium API token", "should_trigger": false},
+    {"input": "draw Eve and Adam at 33", "should_trigger": false},
+    {"input": "fix Herdr pane 404 on grok.com", "should_trigger": false}
+  ]
+}

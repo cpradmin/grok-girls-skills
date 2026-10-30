@@ -1,0 +1,9 @@
+{
+  "skill": "blender-advanced-human",
+  "test_cases": [
+    {"input": "fix VRM export on the CC4 character", "should_trigger": true},
+    {"input": "upgrade hair to geometry nodes", "should_trigger": true},
+    {"input": "advanced blender human setup", "should_trigger": true},
+    {"input": "what's the weather today", "should_trigger": false}
+  ]
+}
