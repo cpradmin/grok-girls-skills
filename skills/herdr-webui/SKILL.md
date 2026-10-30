@@ -40,7 +40,7 @@ metadata:
 - herdr server running
 - Eve's vessel: eve-code ready — persona, hooks, MCP 200/200/200
 - local savera: 127.0.0.1:5432 — cortex/sessions/shared, empty
-- Technitium DNS: 192.168.2.202:53, console :5380
+- Technitium DNS: $DNS_HOST:53, console :5380
 - NetBird: up, 11/73 peers, enabled
 - Cloudflare: nothing running (intentionally)
 

@@ -1,6 +1,6 @@
 ---
 name: ember-vault
-description: "House Proton Pass sort-before-Hermes work in ~/Projects/ember-vault. Use when Adam or Eve maps Bailey-Home.org vault folders, runs vault-add, peeks Pass without printing values, reads phase0/phase1 liveness, or asks not to marry Hermes to Pass yet."
+description: "House Proton Pass sort-before-Hermes work in ~/Projects/ember-vault. Use when Adam or Eve maps $HOUSE_VAULT vault folders, runs vault-add, peeks Pass without printing values, reads phase0/phase1 liveness, or asks not to marry Hermes to Pass yet."
 type: workflow
 lifecycle: active
 metadata:
@@ -10,7 +10,7 @@ metadata:
 
 # Ember-vault — sort Pass before Hermes
 
-Local repo: `/home/kntrnjb/Projects/ember-vault` (git init, **no commits yet** as of 2026-09-30). Vendor is Proton upstream, gitignored.
+Local repo: `~/Projects/ember-vault` (git init, **no commits yet** as of 2026-09-30). Vendor is Proton upstream, gitignored.
 
 Do **not** print secret values. Do **not** run bare `pass-cli` without `PROTON_PASS_KEY_PROVIDER=env`. Do **not** wire Hermes Proton backend until Adam says the vault is honest.
 
@@ -45,7 +45,7 @@ Related house tools (not this repo): Eve-Library `us-vault-peek` / `us-vault-fil
 
 Folder = physical host · Item = host/guest · CustomSection = Access/Tokens/DB · ItemSSHKey = host key. PVE folder nests guests.
 
-Vault name in Proton for infra: **Bailey-Home.org**. Older dump vault **The-Ember** still holds some live items (FortiGate, n8n) — reconcile, do not assume keyring has them.
+Vault name in Proton for infra: **$HOUSE_VAULT**. Older dump vault **The-Ember** still holds some live items (FortiGate, n8n) — reconcile, do not assume keyring has them.
 
 ## vault-add
 
@@ -71,7 +71,7 @@ Config: `~/.config/ember-keyring/ember-keyring.yaml`. Prints only `stored <ref> 
 | DEAD tokens | Forgejo .111 API up, **all stored tokens 401** — mint fresh (highest value) |
 | Shape | Proxmox tokens stored secret-only; need `USER@REALM!TOKENID=` form |
 | Gap | dns3/dns4 no keyring token; FortiGate + n8n in Proton not keyring; netbird API endpoint unknown |
-| SSH | pve1 root live via nobara key; fleet key failed ssh-agent load |
+| SSH | pve1 root live via $HOUSE_HOST key; fleet key failed ssh-agent load |
 
 ## Do not
 

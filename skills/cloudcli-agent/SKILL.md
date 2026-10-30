@@ -15,7 +15,7 @@ Docs still say :3001. Live port is 3002.
 ## Legal default body
 - provider: claude
 - model: pin 4.8 when the UI exposes it
-- projectPath: /home/kntrnjb/Eve unless Adam names another existing path
+- projectPath: ~/Eve unless Adam names another existing path
 - stream: false unless he wants a ticker
 - message: exact task, nothing extra
 

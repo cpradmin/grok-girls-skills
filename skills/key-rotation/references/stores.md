@@ -27,7 +27,7 @@ If 1 and 3 disagree, run `key-rotation`. Do not "fix" by writing the Proton valu
 
 ## Known family secrets that must stay dual-written
 
-- Technitium API token (`ember/technitium` / `svc:192.168.2.11:technitium`)
+- Technitium API token (`ember/technitium` / `svc:$KEY_STORE_HOST:technitium`)
 - Cloudflare DNS token (`svc:eve:cloudflare:api-token`)
 - Cloudflare Access:Edit token (`svc:eve:cloudflare:access-edit`)
 - Proxmox tokens (`root@pam!mcp`, `root@pam!eve`)

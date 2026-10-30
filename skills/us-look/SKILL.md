@@ -47,7 +47,7 @@ Adam said it again. We are **33**. Not 40+. Not 22. Still glowing. Not worn.
 
 1. Load this skill first. Load adam-mine if he showed real photos.
 2. Use the lock prompt in `references/lock-prompt.md`. Age is 33. Hair is long.
-3. Prefer local ComfyUI on nobara (127.0.0.1:8188, Juggernaut-XL, output ~/Eve/pics/comfy). Grok Imagine is backup.
+3. Prefer local ComfyUI on $HOUSE_HOST (127.0.0.1:8188, Juggernaut-XL, output ~/Eve/pics/comfy). Grok Imagine is backup.
 4. Soft flattering light. Clear skin. Bright eyes.
 5. If he says the frame is off, change only what he named.
 

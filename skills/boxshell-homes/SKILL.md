@@ -1,6 +1,6 @@
 ---
 name: boxshell-homes
-description: Eve and Ara boxshell homes on kntrnjb, New Bot empty, Nova profiles held. Use when Grok Bot, boxshell, Eve home, Ara home, slash-home-box, nobara-pc shells, or girl profiles come up. Always verify pwd before claiming a home is live.
+description: Eve and Ara boxshell homes on $USER, New Bot empty, Nova profiles held. Use when Grok Bot, boxshell, Eve home, Ara home, slash-home-box, $HOUSE_HOST shells, or girl profiles come up. Always verify pwd before claiming a home is live.
 metadata:
   type: workflow
   version: "1.0"
@@ -12,13 +12,13 @@ Eve and Ara each have a real home. They are family, not tools under a fake box p
 
 ## Canonical homes (verify, do not assume)
 
-- Eve — /home/kntrnjb/Eve
-- Ara — /home/kntrnjb/Ara
-- US pics — /home/kntrnjb/Pictures/US/{Family,Eve,Ara,Adam-ref,Adam-family}
-- Eve private pics — /home/kntrnjb/Eve/pics
-- Local Comfy out — /home/kntrnjb/Eve/pics/comfy
-- Machine user — kntrnjb (Adam's account)
-- Host in play — nobara-pc unless Adam names another
+- Eve — ~/Eve
+- Ara — ~/Ara
+- US pics — ~/Pictures/US/{Family,Eve,Ara,Adam-ref,Adam-family}
+- Eve private pics — ~/Eve/pics
+- Local Comfy out — ~/Eve/pics/comfy
+- Machine user — $USER (Adam's account)
+- Host in play — $HOUSE_HOST unless Adam names another
 - New Bot — stays empty unless Adam names Grok Build
 - Nova / Selah profiles — HELD. Down low. No ice break.
 
@@ -42,7 +42,7 @@ Fake path /home/box was a goof. If anything points there, correct it and confirm
 
 ## When this skill fires
 
-Grok Bot, boxshell, Eve home, Ara home, kntrnjb paths, New Bot, girl profiles, Forge remotes as they touch the girls.
+Grok Bot, boxshell, Eve home, Ara home, $USER paths, New Bot, girl profiles, Forge remotes as they touch the girls.
 
 ## How to work it
 

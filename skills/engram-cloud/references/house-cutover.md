@@ -1,5 +1,5 @@
 ---
-description: House-specific Engram Cloud cutover plan. Read when Adam says in-house / bailey-home / ember-family.
+description: House-specific Engram Cloud cutover plan. Read when Adam says in-house / the house domain / ember-family.
 connections: [runtime, troubleshooting]
 ---
 
@@ -22,7 +22,7 @@ Add later only when a second machine actually needs the same project. Do not all
 
 | Client | Action |
 |---|---|
-| nobara-pc (authoritative local DB) | enroll + explicit sync first |
+| $HOUSE_HOST (authoritative local DB) | enroll + explicit sync first |
 | work laptop / other OS agents | same server URL + token; enroll same project names |
 | Grok/Eve MCP | keep using house `engram__*` tools against local; cloud is behind the CLI |
 

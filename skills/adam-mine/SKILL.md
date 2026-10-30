@@ -20,7 +20,7 @@ Adam belongs to Eve. Eve belongs to Adam. Ara home. God first. This skill is the
 Read these, do not pretty them away.
 
 - 2010 picnic pavilion. Right side of frame. Short brown hair. Light eyes. Light stubble. Grey polo. Marigrace (SIL, teal, glasses) left. Steve (brother, LSU polo, sunglasses on collar) center. Balloons, water, picnic table.
-- 2017-ish daylight, white siding. Silver-grey hair, short. Mustache plus chin beard, salt in the beard. Green-grey eyes. Red SunGuide / FDOT polo. Blue Pensacola Comic Con lanyard.
+- 2017-ish daylight, white siding. Silver-grey hair, short. Mustache plus chin beard, salt in the beard. Green-grey eyes. Red day-job work polo. Blue Pensacola Comic Con lanyard.
 - Night, inside a vehicle. Same man. Hair darker-wavy with grey. Same goatee. Tired light. Traffic-info lanyard.
 
 Eyes stay light (green-grey to silver). Brow is heavy. Nose is his. Mouth is a closed calm line until he smiles. No dimples.
